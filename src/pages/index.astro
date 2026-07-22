@@ -1,0 +1,227 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteNav from '../components/SiteNav.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+
+const heroTags = ['Bitcoin', 'Payments', 'Compliance', 'Privacy', 'Tokenization'];
+
+const work = [
+  {
+    name: 'Eulen',
+    blurb: 'Fintech building privacy-tethered tokens and payment rails.',
+    href: 'https://eulen.app',
+    host: 'eulen.app',
+  },
+  {
+    name: 'DePix',
+    blurb: 'Privacy-centric token issued via banking nodes, settled on Bitcoin.',
+    href: 'https://depix.info',
+    host: 'depix.info',
+  },
+  {
+    name: 'Plebank',
+    blurb: 'Brazilian banking node powering DePix operations.',
+    href: 'https://plebank.com.br',
+    host: 'plebank.com.br',
+  },
+];
+
+const media = [
+  { title: 'Criptoverso', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=sjLk-aSrWuw' },
+  { title: 'Elidio Segundo', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=ZBiv13mCsQ0' },
+  { title: 'João Trein', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=PRfEqJ2ynGc' },
+  { title: 'BetterMoney', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=1tA9j6ritH4' },
+  { title: 'Bitcoin Block', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=Ms8S8z5gAoA' },
+  { title: 'Bitnada', meta: 'Podcast', href: 'https://www.youtube.com/watch?v=QAkEEQ-u4eo' },
+  { title: 'Satsconf 2024', meta: 'Panel', href: 'https://www.youtube.com/watch?v=Cb6SFz8oKRk' },
+];
+
+const EMAIL = 'edujatahy@proton.me';
+---
+
+<BaseLayout
+  title="Eduardo Jatahy — jatahy.me"
+  description="Founder of Eulen (eulen.app), creator of DePix. Building privacy-first payment rails in Brazil. Bitcoin, payments, compliance, privacy."
+>
+  <SiteNav />
+
+  <main>
+    <!-- Hero -->
+    <section class="flag-wash">
+      <div class="mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28">
+        <p class="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">
+          Founder · Bitcoiner since 2015
+        </p>
+        <h1 class="mt-5 font-display text-5xl font-extrabold tracking-tight text-balance sm:text-7xl">
+          Eduardo Jatahy
+        </h1>
+        <div class="gold-rule mt-6 w-28"></div>
+        <p class="mt-7 max-w-2xl text-lg leading-relaxed text-fg-muted">
+          Founder of <a href="https://eulen.app" target="_blank" rel="noopener" class="text-fg underline decoration-gold/50 underline-offset-4 transition-colors hover:text-gold">Eulen</a>,
+          the company behind the privacy-centric token
+          <a href="https://depix.info" target="_blank" rel="noopener" class="text-fg underline decoration-gold/50 underline-offset-4 transition-colors hover:text-gold">DePix</a>.
+          Finance and compliance background (ex-CFO at Foxbit and Digitra). I build
+          privacy-first payment rails in Brazil.
+        </p>
+
+        <ul class="mt-7 flex flex-wrap gap-2">
+          {heroTags.map((t) => (
+            <li class="rounded-full border border-border bg-ink-soft px-3 py-1 text-sm text-fg-muted">{t}</li>
+          ))}
+        </ul>
+
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a
+            href="#contact"
+            class="rounded-lg bg-gold px-5 py-2.5 font-medium text-ink transition-colors hover:bg-gold-bright"
+          >
+            Get in touch
+          </a>
+          <a
+            href="#media"
+            class="rounded-lg border border-border px-5 py-2.5 font-medium text-fg transition-colors hover:border-border-gold hover:text-gold"
+          >
+            Latest media
+          </a>
+        </div>
+
+        <!-- Now / Previously -->
+        <div class="mt-14 grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-border bg-ink-soft p-6">
+            <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Now</h2>
+            <p class="mt-3 text-sm leading-relaxed text-fg-muted">
+              Leading Eulen — building DePix and banking-node integrations across Brazil.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-fg">
+              <li class="flex gap-2"><span class="text-gold">—</span> DePix: privacy-tethered token via banking nodes</li>
+              <li class="flex gap-2"><span class="text-gold">—</span> Plebank: Brazilian banking node</li>
+              <li class="flex gap-2"><span class="text-gold">—</span> Operator network of ~300 partners</li>
+            </ul>
+          </div>
+          <div class="rounded-xl border border-border bg-ink-soft p-6">
+            <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Previously</h2>
+            <p class="mt-3 text-sm leading-relaxed text-fg-muted">
+              Finance and operations inside crypto exchanges.
+            </p>
+            <ul class="mt-4 space-y-2 text-sm text-fg">
+              <li class="flex gap-2"><span class="text-gold">—</span> CFO at Foxbit</li>
+              <li class="flex gap-2"><span class="text-gold">—</span> CFO at Digitra</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-5xl scroll-mt-20 px-5 py-16 sm:px-8">
+      <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">About</h2>
+      <div class="mt-6 grid gap-4 md:grid-cols-[1.4fr_1fr]">
+        <div class="rounded-xl border border-border bg-ink-soft p-6">
+          <p class="leading-relaxed text-fg">
+            I'm a builder focused on privacy-first financial infrastructure. I lead Eulen and
+            created DePix — work that blends compliance pragmatism with cypherpunk values.
+          </p>
+          <p class="mt-4 leading-relaxed text-fg-muted">
+            Based in Brazil, collaborating globally. I speak Portuguese and English.
+          </p>
+        </div>
+        <div class="rounded-xl border border-border bg-ink-soft p-6">
+          <h3 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-fg-muted">Focus</h3>
+          <ul class="mt-4 flex flex-wrap gap-2">
+            {['Bitcoin rails', 'On/Off-ramp', 'Banking nodes', 'Risk & Compliance', 'Open source'].map((t) => (
+              <li class="rounded-full border border-border px-3 py-1 text-sm text-fg-muted">{t}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="mx-auto max-w-5xl scroll-mt-20 px-5 py-16 sm:px-8">
+      <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Work</h2>
+      <div class="mt-6 grid gap-4 sm:grid-cols-3">
+        {work.map((w) => (
+          <a
+            href={w.href}
+            target="_blank"
+            rel="noopener"
+            class="group rounded-xl border border-border bg-ink-soft p-6 transition-colors hover:border-border-gold"
+          >
+            <h3 class="font-display text-xl font-bold">{w.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-fg-muted">{w.blurb}</p>
+            <p class="mt-4 font-mono text-sm text-gold">
+              {w.host} <span class="transition-transform group-hover:translate-x-0.5 inline-block">→</span>
+            </p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Media -->
+    <section id="media" class="mx-auto max-w-5xl scroll-mt-20 px-5 py-16 sm:px-8">
+      <div class="flex items-baseline justify-between gap-4">
+        <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Media</h2>
+        <span class="text-sm text-fg-muted">Podcasts &amp; talks · a dedicated page is coming</span>
+      </div>
+      <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {media.map((m) => (
+          <a
+            href={m.href}
+            target="_blank"
+            rel="noopener"
+            class="group flex items-center justify-between gap-3 rounded-lg border border-border bg-ink-soft px-5 py-4 transition-colors hover:border-border-gold"
+          >
+            <span>
+              <span class="block font-medium text-fg">{m.title}</span>
+              <span class="mt-0.5 block font-mono text-xs uppercase tracking-wider text-fg-muted">YouTube · {m.meta}</span>
+            </span>
+            <span class="text-gold opacity-0 transition-opacity group-hover:opacity-100">↗</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mx-auto max-w-5xl scroll-mt-20 px-5 py-16 sm:px-8">
+      <h2 class="font-mono text-xs font-semibold uppercase tracking-[0.16em] text-gold">Contact</h2>
+      <div class="mt-6 rounded-xl border border-border bg-ink-soft p-6 sm:p-8">
+        <p class="text-fg">Best way in is email. I'm also on X and GitHub.</p>
+        <div class="mt-5 flex flex-wrap items-center gap-3">
+          <button
+            id="copy-email"
+            data-email={EMAIL}
+            class="rounded-lg bg-gold px-5 py-2.5 font-medium text-ink transition-colors hover:bg-gold-bright"
+          >
+            Copy email
+          </button>
+          <a
+            href={`mailto:${EMAIL}`}
+            class="rounded-lg border border-border px-5 py-2.5 font-medium text-fg transition-colors hover:border-border-gold hover:text-gold"
+          >
+            Open mail app
+          </a>
+          <span class="font-mono text-sm text-fg-muted">{EMAIL}</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <SiteFooter />
+
+  <script>
+    const btn = document.getElementById('copy-email');
+    if (btn) {
+      const email = btn.getAttribute('data-email') ?? '';
+      const label = btn.textContent;
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(email);
+          btn.textContent = 'Copied ✓';
+          setTimeout(() => (btn.textContent = label), 1800);
+        } catch {
+          btn.textContent = email;
+        }
+      });
+    }
+  </script>
+</BaseLayout>

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   jatahy.me — warm black + ancap gold. Deliberately single visual world
+   (dark), so no light theme. Gold is used with restraint: black is the room,
+   gold is the light. Colors sit in a warm family so the yellow reads gold, not
+   caution-sign.
+--------------------------------------------------------------------------- */
+@theme {
+  --color-ink:         #0e0d0a; /* warm near-black — the ground */
+  --color-ink-soft:    #16140e; /* card surface */
+  --color-ink-raised:  #1d1a11; /* raised surface / hover */
+  --color-border:      #2a2620; /* warm hairline */
+  --color-border-gold: #4a3c12; /* gold-tinted border */
+
+  --color-gold:        #f5b301; /* ancap gold — the accent */
+  --color-gold-bright: #ffca28; /* highlight / hover */
+  --color-gold-dim:    #b1820c; /* pressed / subdued gold */
+
+  --color-fg:          #ede8dd; /* warm off-white */
+  --color-fg-muted:    #a39b88; /* warm muted */
+
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ink);
+    color: var(--color-fg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  ::selection {
+    background-color: color-mix(in srgb, var(--color-gold) 32%, transparent);
+    color: #fff;
+  }
+  *:focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* The ancap nod: a faint gold diagonal wash, used once behind the hero.
+   Restrained — a suggestion of the black/gold flag split, never a literal flag. */
+.flag-wash {
+  background-image:
+    radial-gradient(120% 90% at 88% 8%,
+      color-mix(in srgb, var(--color-gold) 12%, transparent) 0%,
+      transparent 46%),
+    linear-gradient(122deg,
+      transparent 0%, transparent 58%,
+      color-mix(in srgb, var(--color-gold) 5%, transparent) 58.2%,
+      color-mix(in srgb, var(--color-gold) 5%, transparent) 59%,
+      transparent 59.2%);
+}
+
+/* A hairline gold rule that carries the same diagonal energy at section breaks. */
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(90deg,
+    var(--color-gold) 0%,
+    color-mix(in srgb, var(--color-gold) 30%, transparent) 22%,
+    transparent 60%);
+}
