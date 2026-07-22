@@ -1,0 +1,33 @@
+---
+// Site navigation. Phase 1 links point to landing-page sections; top-level
+// pages (blog, podcast, a-grande-caminhada) get added in later phases.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const home = `${base}/`;
+
+const links = [
+  { href: `${home}#about`, label: 'About' },
+  { href: `${home}#work`, label: 'Work' },
+  { href: `${home}#media`, label: 'Media' },
+  { href: `${home}#contact`, label: 'Contact' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-border bg-ink/85 backdrop-blur-md">
+  <div class="mx-auto flex h-16 max-w-5xl items-center justify-between px-5 sm:px-8">
+    <a href={home} class="flex items-center gap-2 font-display text-lg font-bold tracking-tight">
+      <span class="h-2 w-2 rounded-full bg-gold"></span>
+      <span>jatahy<span class="text-gold">.me</span></span>
+    </a>
+    <nav class="flex items-center gap-5 text-sm text-fg-muted">
+      {links.map((l) => (
+        <a href={l.href} class="hidden transition-colors hover:text-gold sm:inline">{l.label}</a>
+      ))}
+      <a
+        href={`${home}#contact`}
+        class="rounded-md border border-border-gold px-3 py-1.5 text-sm font-medium text-gold transition-colors hover:bg-gold hover:text-ink"
+      >
+        Get in touch
+      </a>
+    </nav>
+  </div>
+</header>
