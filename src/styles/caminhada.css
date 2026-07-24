@@ -1,0 +1,145 @@
+/* ---------------------------------------------------------------------------
+   A Grande Caminhada — reading typography.
+
+   The classes below are emitted by the book's own build pipeline
+   (scripts/build.py in the a-grande-caminhada repo), so they are shared with
+   the PDF output and must not be renamed here unilaterally.
+
+     .narracao   spoken narration — the text read aloud
+     .fala       a character speaking (italic in the source)
+     .crianca    the child interrupting ("— Qual trabalho?")
+     .cue        breath cue (Inspira… / Expira… / Silêncio longo.)
+     .fecho      the closing "Boa noite, meninos…"
+     .emphasis   typographic peak
+     blockquote  stage direction for whoever is reading aloud
+
+   Dark ground is deliberate: this gets read in a bedroom with the lights off.
+--------------------------------------------------------------------------- */
+
+.leitura {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--color-fg) 92%, transparent);
+  hyphens: auto;
+}
+
+@media (min-width: 640px) {
+  .leitura { font-size: 1.25rem; line-height: 1.8; }
+}
+
+.leitura p {
+  margin: 0;
+  text-indent: 1.2em;
+}
+
+/* first paragraph of a run never carries an indent */
+.leitura > p:first-child,
+.leitura h2 + p,
+.leitura hr + p,
+.leitura blockquote + p { text-indent: 0; }
+
+/* section headings inside a chapter */
+.leitura h2 {
+  margin: 2.75rem 0 1.15rem;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  text-align: center;
+  text-wrap: balance;
+}
+
+/* a character speaking */
+.leitura p.fala {
+  text-indent: 0;
+  margin: 1.05em 0;
+  padding-left: 1.15em;
+  border-left: 1px solid var(--color-border-gold);
+  color: var(--color-fg);
+}
+
+/* the child interrupting the story */
+.leitura p.crianca {
+  text-indent: 0;
+  margin: 1.05em 0;
+  font-style: italic;
+  color: var(--color-fg-muted);
+}
+
+/* breath cues — these are instructions to slow down, so give them air */
+.leitura p.cue {
+  text-indent: 0;
+  margin: 1.5em 0;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.14em;
+  color: var(--color-fg-muted);
+}
+
+.leitura p.fecho {
+  text-indent: 0;
+  margin-top: 1.6em;
+}
+
+.leitura .emphasis {
+  font-weight: 600;
+  color: var(--color-gold-bright);
+}
+
+/* stage direction for the reader, not part of the story */
+.leitura blockquote {
+  margin: 1.75em 0;
+  padding: 0;
+  border: 0;
+}
+.leitura blockquote p {
+  text-indent: 0;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  color: color-mix(in srgb, var(--color-fg-muted) 78%, transparent);
+}
+
+/* scene change */
+.leitura hr {
+  width: 3.5rem;
+  margin: 2.5rem auto;
+  border: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+/* '~~~' natural pause */
+.leitura hr.pausa {
+  width: 0;
+  border: 0;
+  margin: 2.5rem auto;
+}
+.leitura hr.pausa::after {
+  content: '~';
+  display: block;
+  margin-top: -0.7em;
+  text-align: center;
+  color: var(--color-border-gold);
+}
+
+/* '===' recommended day break */
+.leitura .quebra-dia {
+  margin: 2.75rem 0;
+  text-align: center;
+  letter-spacing: 0.6em;
+  color: var(--color-gold-dim);
+}
+.leitura .quebra-dia::after { content: '∴'; }
+
+.leitura ol, .leitura ul {
+  margin: 1.15em 0;
+  padding-left: 1.6em;
+}
+.leitura li { margin: 0.45em 0; }
+.leitura li::marker { color: var(--color-gold-dim); }

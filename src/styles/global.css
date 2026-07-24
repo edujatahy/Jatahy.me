@@ -23,6 +23,9 @@
   --font-display: 'Sora', system-ui, sans-serif;
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  /* Reading face — used only by "A Grande Caminhada". Literata is a book face
+     drawn for long-form screen reading, which is what that section is. */
+  --font-serif: 'Literata', Georgia, 'Times New Roman', serif;
 }
 
 @layer base {
