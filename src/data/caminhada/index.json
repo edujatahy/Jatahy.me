@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "cap01",
+    "numero": 1,
+    "titulo": "A Grande Caminhada (Parte 1)",
+    "rubrica": "Para contar em voz alta, antes de dormir.",
+    "palavras": 404
+  },
+  {
+    "slug": "cap02",
+    "numero": 2,
+    "titulo": "A Grande Caminhada (Parte 2)",
+    "rubrica": "Voz baixa, ritmo lento. Vai diminuindo o tom conforme avança.",
+    "palavras": 689
+  },
+  {
+    "slug": "cap03",
+    "numero": 3,
+    "titulo": "A Primeira Vila do Mundo",
+    "rubrica": "Tom calmo, ritmo de estrada. Começa animado pra prender atenção, vai desacelerando aos poucos.",
+    "palavras": 1111
+  },
+  {
+    "slug": "cap04",
+    "numero": 4,
+    "titulo": "A Pedra Dourada e os Estranhos",
+    "rubrica": "Tom de aventura no começo. Conflito no meio. Calma no final. Vai desacelerando devagar.",
+    "palavras": 2246
+  },
+  {
+    "slug": "cap05",
+    "numero": 5,
+    "titulo": "A Caravana e o Rei que Queria Viver Para Sempre",
+    "rubrica": "Começa com energia de aventura. Tensão no meio. Gilgamesh entra devagar como uma história de fogueira. Final lento.",
+    "palavras": 3792
+  },
+  {
+    "slug": "cap06",
+    "numero": 6,
+    "titulo": "A Palavra na Argila",
+    "rubrica": "Começa com alegria. Passa por perda. Termina com esperança. Ritmo vai desacelerando como sempre.",
+    "palavras": 3021
+  },
+  {
+    "slug": "cap07",
+    "numero": 7,
+    "titulo": "As Leis que Ninguém Podia Esconder",
+    "rubrica": "Começa com o crescimento de Enshi e os usos práticos da escrita. Conflito no meio. Hamurabi no final. Ritmo desacelera como sempre.",
+    "palavras": 3342
+  },
+  {
+    "slug": "cap08",
+    "numero": 8,
+    "titulo": "O Dilúvio",
+    "rubrica": "Começa com presságios. Tensão cresce devagar. Destruição no meio. Fuga. Despedida de Enshi. Estrada nova. Final pro sono.",
+    "palavras": 2673
+  },
+  {
+    "slug": "cap09",
+    "numero": 9,
+    "titulo": "O Rio que Mandava no Tempo",
+    "rubrica": "Começa com a travessia. Medo no meio. Descoberta e maravilhamento. Final pro sono.",
+    "palavras": 3561
+  },
+  {
+    "slug": "cap10",
+    "numero": 10,
+    "titulo": "A Montanha de Pedra",
+    "rubrica": "Começa com maravilhamento. Engenharia no meio. Escravidão aparece devagar. Final reflexivo.",
+    "palavras": 2071
+  },
+  {
+    "slug": "cap11",
+    "numero": 11,
+    "titulo": "Os Deuses com Cabeça de Animal",
+    "rubrica": "Começa com descoberta e maravilhamento. Mito no meio. Perda e ritual. Final pro sono.",
+    "palavras": 3701
+  },
+  {
+    "slug": "cap12",
+    "numero": 12,
+    "titulo": "O Mundo Pegando Fogo",
+    "rubrica": "Começa com normalidade quebrando. Despedida no meio. Perda e fome. Esperança no final. O episódio mais pesado da série — voz firme, sem dramatizar demais. A dor fala por si.",
+    "palavras": 4644
+  },
+  {
+    "slug": "cap13",
+    "numero": 13,
+    "titulo": "O Povo das Letras",
+    "rubrica": "Começa com chegada e recomeço. Descobertas no meio. Morte de Naram. Final pro sono.",
+    "palavras": 3642
+  },
+  {
+    "slug": "cap14",
+    "numero": 14,
+    "titulo": "O Mar Sem Fim",
+    "rubrica": "Começa com aventura. Romance no meio. Lado sombrio. Nascimento. Final pro sono.",
+    "palavras": 3041
+  }
+]

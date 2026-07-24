@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteNav from '../../components/SiteNav.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import chapters from '../../data/caminhada/index.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// Read aloud, not read silently — roughly 130 words a minute.
+const minutes = (w: number) => Math.max(1, Math.round(w / 130));
+const totalWords = chapters.reduce((s, c) => s + c.palavras, 0);
+---
+
+<BaseLayout
+  lang="pt-BR"
+  reading
+  title="A Grande Caminhada — Eduardo Jatahy"
+  description="A história do mundo contada como história de dormir: uma família atravessando a civilização, da África pré-histórica até hoje."
+>
+  <SiteNav />
+
+  <main>
+    <!-- Hero -->
+    <section class="flag-wash border-b border-border">
+      <div class="mx-auto max-w-3xl px-5 py-20 sm:px-8 sm:py-24">
+        <p class="font-mono text-xs font-medium uppercase tracking-[0.22em] text-gold">
+          Livro em construção
+        </p>
+        <h1 class="mt-5 font-serif text-4xl font-semibold tracking-tight text-balance sm:text-6xl">
+          A Grande Caminhada
+        </h1>
+        <div class="gold-rule mt-6 w-28"></div>
+
+        <p class="mt-8 font-serif text-lg leading-relaxed text-fg-muted sm:text-xl">
+          A história do mundo contada antes de dormir. Uma família só, atravessando a
+          civilização inteira — da primeira caminhada para fora da África até o século
+          em que estamos.
+        </p>
+
+        <div class="mt-7 space-y-4 leading-relaxed text-fg-muted">
+          <p>
+            Começou como história de dormir para os meus filhos, inventada em voz alta,
+            um capítulo por noite. Depois virou isto: uma linhagem que atravessa Jericó,
+            a Mesopotâmia, o Egito, a Grécia, Roma — carregando um saco de couro e umas
+            tábuas de argila que passam de mão em mão por gerações.
+          </p>
+          <p>
+            É escrito para ser <em class="not-italic text-fg">falado</em>, não lido em
+            silêncio. Por isso as frases são curtas, o ritmo desce no fim de cada
+            capítulo, e existem marcações de respiração no meio do texto. Se você for
+            ler para alguém dormir, siga as marcações.
+          </p>
+          <p>
+            Os capítulos abaixo são os que já passaram por revisão de continuidade. O
+            resto vem conforme fica pronto.
+          </p>
+        </div>
+
+        <dl class="mt-10 flex flex-wrap gap-x-10 gap-y-4 border-t border-border pt-7 text-sm">
+          <div>
+            <dt class="text-fg-muted">Capítulos publicados</dt>
+            <dd class="mt-1 font-mono text-lg text-gold">{chapters.length}</dd>
+          </div>
+          <div>
+            <dt class="text-fg-muted">Palavras</dt>
+            <dd class="mt-1 font-mono text-lg text-gold">{totalWords.toLocaleString('pt-BR')}</dd>
+          </div>
+          <div>
+            <dt class="text-fg-muted">Leitura em voz alta</dt>
+            <dd class="mt-1 font-mono text-lg text-gold">~{minutes(totalWords)} min</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Chapter list -->
+    <section class="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
+      <h2 class="font-mono text-xs font-medium uppercase tracking-[0.22em] text-fg-muted">
+        Capítulos
+      </h2>
+
+      <ol class="mt-8 divide-y divide-border border-y border-border">
+        {chapters.map((c) => (
+          <li>
+            <a
+              href={`${base}/caminhada/${c.slug}`}
+              class="group flex items-baseline gap-5 py-5 transition-colors hover:bg-ink-soft"
+            >
+              <span class="w-8 shrink-0 text-right font-mono text-sm text-gold-dim transition-colors group-hover:text-gold">
+                {String(c.numero).padStart(2, '0')}
+              </span>
+              <span class="min-w-0 flex-1">
+                <span class="block font-serif text-lg text-fg transition-colors group-hover:text-gold sm:text-xl">
+                  {c.titulo}
+                </span>
+                {c.rubrica && (
+                  <span class="mt-1 block text-sm leading-relaxed text-fg-muted">
+                    {c.rubrica}
+                  </span>
+                )}
+              </span>
+              <span class="shrink-0 font-mono text-xs text-fg-muted">
+                {minutes(c.palavras)} min
+              </span>
+            </a>
+          </li>
+        ))}
+      </ol>
+
+      <p class="mt-10 text-sm leading-relaxed text-fg-muted">
+        A saga continua sendo escrita. Os capítulos seguintes chegam aqui depois da
+        revisão de continuidade — a versão canônica completa é publicada de uma vez, no
+        fim.
+      </p>
+    </section>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>

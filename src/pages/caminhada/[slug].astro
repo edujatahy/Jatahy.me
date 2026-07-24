@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SiteNav from '../../components/SiteNav.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import chapters from '../../data/caminhada/index.json';
+import '../../styles/caminhada.css';
+
+// Chapter bodies are pre-rendered by the book repo's export_web.py, so the
+// markdown conventions stay in one place instead of being reimplemented here.
+const bodies = import.meta.glob('../../data/caminhada/*.html', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
+
+export function getStaticPaths() {
+  return chapters.map((c, i) => ({
+    params: { slug: c.slug },
+    props: {
+      chapter: c,
+      prev: i > 0 ? chapters[i - 1] : null,
+      next: i < chapters.length - 1 ? chapters[i + 1] : null,
+    },
+  }));
+}
+
+const { chapter, prev, next } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const index = `${base}/caminhada`;
+
+const key = Object.keys(bodies).find((k) => k.endsWith(`/${chapter.slug}.html`));
+const body = key ? bodies[key] : '';
+const minutes = Math.max(1, Math.round(chapter.palavras / 130));
+
+// Chapters 1-2 are themselves titled "A Grande Caminhada (Parte N)", so the
+// usual "<title> — A Grande Caminhada" suffix would stutter.
+const pageTitle = /grande caminhada/i.test(chapter.titulo)
+  ? `${chapter.titulo} — Eduardo Jatahy`
+  : `${chapter.titulo} — A Grande Caminhada`;
+---
+
+<BaseLayout
+  lang="pt-BR"
+  reading
+  title={pageTitle}
+  description={chapter.rubrica || `Capítulo ${chapter.numero} de A Grande Caminhada.`}
+>
+  <SiteNav />
+
+  <main>
+    <article class="mx-auto max-w-2xl px-5 py-14 sm:px-8 sm:py-20">
+      <!-- Chapter opening -->
+      <header class="border-b border-border pb-9">
+        <a
+          href={index}
+          class="font-mono text-xs uppercase tracking-[0.2em] text-fg-muted transition-colors hover:text-gold"
+        >
+          ← A Grande Caminhada
+        </a>
+
+        <p class="mt-8 font-mono text-xs uppercase tracking-[0.22em] text-gold">
+          Capítulo {String(chapter.numero).padStart(2, '0')}
+        </p>
+        <h1 class="mt-4 font-serif text-3xl font-semibold tracking-tight text-balance sm:text-5xl">
+          {chapter.titulo}
+        </h1>
+
+        {chapter.rubrica && (
+          <p class="mt-6 font-serif text-base italic leading-relaxed text-fg-muted">
+            {chapter.rubrica}
+          </p>
+        )}
+
+        <p class="mt-6 font-mono text-xs text-fg-muted">
+          {chapter.palavras.toLocaleString('pt-BR')} palavras · ~{minutes} min em voz alta
+        </p>
+      </header>
+
+      <!-- The chapter itself -->
+      <div class="leitura mt-12" set:html={body} />
+
+      <p class="mt-14 text-center text-2xl text-gold-dim" aria-hidden="true">∴</p>
+
+      <!-- Prev / next -->
+      <nav class="mt-14 grid gap-4 border-t border-border pt-8 sm:grid-cols-2">
+        {prev ? (
+          <a
+            href={`${index}/${prev.slug}`}
+            class="group rounded-lg border border-border bg-ink-soft p-5 transition-colors hover:border-border-gold"
+          >
+            <span class="font-mono text-xs uppercase tracking-[0.18em] text-fg-muted">
+              ← Capítulo {String(prev.numero).padStart(2, '0')}
+            </span>
+            <span class="mt-2 block font-serif text-lg text-fg transition-colors group-hover:text-gold">
+              {prev.titulo}
+            </span>
+          </a>
+        ) : (
+          <span></span>
+        )}
+
+        {next && (
+          <a
+            href={`${index}/${next.slug}`}
+            class="group rounded-lg border border-border bg-ink-soft p-5 text-right transition-colors hover:border-border-gold sm:col-start-2"
+          >
+            <span class="font-mono text-xs uppercase tracking-[0.18em] text-fg-muted">
+              Capítulo {String(next.numero).padStart(2, '0')} →
+            </span>
+            <span class="mt-2 block font-serif text-lg text-fg transition-colors group-hover:text-gold">
+              {next.titulo}
+            </span>
+          </a>
+        )}
+      </nav>
+    </article>
+  </main>
+
+  <SiteFooter />
+</BaseLayout>
