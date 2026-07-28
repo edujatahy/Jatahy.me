@@ -4,97 +4,239 @@
     "numero": 1,
     "titulo": "A Grande Caminhada (Parte 1)",
     "rubrica": "Para contar em voz alta, antes de dormir.",
-    "palavras": 404
+    "palavras": 404,
+    "status": "canon"
   },
   {
     "slug": "cap02",
     "numero": 2,
     "titulo": "A Grande Caminhada (Parte 2)",
     "rubrica": "Voz baixa, ritmo lento. Vai diminuindo o tom conforme avança.",
-    "palavras": 689
+    "palavras": 689,
+    "status": "canon"
   },
   {
     "slug": "cap03",
     "numero": 3,
     "titulo": "A Primeira Vila do Mundo",
     "rubrica": "Tom calmo, ritmo de estrada. Começa animado pra prender atenção, vai desacelerando aos poucos.",
-    "palavras": 1111
+    "palavras": 1111,
+    "status": "canon"
   },
   {
     "slug": "cap04",
     "numero": 4,
     "titulo": "A Pedra Dourada e os Estranhos",
     "rubrica": "Tom de aventura no começo. Conflito no meio. Calma no final. Vai desacelerando devagar.",
-    "palavras": 2246
+    "palavras": 2246,
+    "status": "canon"
   },
   {
     "slug": "cap05",
     "numero": 5,
     "titulo": "A Caravana e o Rei que Queria Viver Para Sempre",
     "rubrica": "Começa com energia de aventura. Tensão no meio. Gilgamesh entra devagar como uma história de fogueira. Final lento.",
-    "palavras": 3792
+    "palavras": 3792,
+    "status": "canon"
   },
   {
     "slug": "cap06",
     "numero": 6,
     "titulo": "A Palavra na Argila",
     "rubrica": "Começa com alegria. Passa por perda. Termina com esperança. Ritmo vai desacelerando como sempre.",
-    "palavras": 3021
+    "palavras": 3021,
+    "status": "canon"
   },
   {
     "slug": "cap07",
     "numero": 7,
     "titulo": "As Leis que Ninguém Podia Esconder",
     "rubrica": "Começa com o crescimento de Enshi e os usos práticos da escrita. Conflito no meio. Hamurabi no final. Ritmo desacelera como sempre.",
-    "palavras": 3342
+    "palavras": 3342,
+    "status": "canon"
   },
   {
     "slug": "cap08",
     "numero": 8,
     "titulo": "O Dilúvio",
     "rubrica": "Começa com presságios. Tensão cresce devagar. Destruição no meio. Fuga. Despedida de Enshi. Estrada nova. Final pro sono.",
-    "palavras": 2673
+    "palavras": 2673,
+    "status": "canon"
   },
   {
     "slug": "cap09",
     "numero": 9,
     "titulo": "O Rio que Mandava no Tempo",
     "rubrica": "Começa com a travessia. Medo no meio. Descoberta e maravilhamento. Final pro sono.",
-    "palavras": 3561
+    "palavras": 3561,
+    "status": "canon"
   },
   {
     "slug": "cap10",
     "numero": 10,
     "titulo": "A Montanha de Pedra",
     "rubrica": "Começa com maravilhamento. Engenharia no meio. Escravidão aparece devagar. Final reflexivo.",
-    "palavras": 2071
+    "palavras": 2071,
+    "status": "canon"
   },
   {
     "slug": "cap11",
     "numero": 11,
     "titulo": "Os Deuses com Cabeça de Animal",
     "rubrica": "Começa com descoberta e maravilhamento. Mito no meio. Perda e ritual. Final pro sono.",
-    "palavras": 3701
+    "palavras": 3701,
+    "status": "canon"
   },
   {
     "slug": "cap12",
     "numero": 12,
     "titulo": "O Mundo Pegando Fogo",
     "rubrica": "Começa com normalidade quebrando. Despedida no meio. Perda e fome. Esperança no final. O episódio mais pesado da série — voz firme, sem dramatizar demais. A dor fala por si.",
-    "palavras": 4644
+    "palavras": 4644,
+    "status": "canon"
   },
   {
     "slug": "cap13",
     "numero": 13,
     "titulo": "O Povo das Letras",
     "rubrica": "Começa com chegada e recomeço. Descobertas no meio. Morte de Naram. Final pro sono.",
-    "palavras": 3642
+    "palavras": 3642,
+    "status": "canon"
   },
   {
     "slug": "cap14",
     "numero": 14,
     "titulo": "O Mar sem Fim",
     "rubrica": "Começa com aventura. Romance no meio. Lado sombrio. Nascimento. Final pro sono.",
-    "palavras": 3041
+    "palavras": 3041,
+    "status": "canon"
+  },
+  {
+    "slug": "cap15",
+    "numero": 15,
+    "titulo": "O Fim do Mundo",
+    "rubrica": "Começa com partida. Aventura crescente no meio. Atravessar o limite. Descoberta. Final pro sono.",
+    "palavras": 2255,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap16",
+    "numero": 16,
+    "titulo": "A Cidade no Monte",
+    "rubrica": "Começa com viagem e chegada. Histórias dos Juízes no meio. A lenda de Salomão. A balança entre Yahweh e Baal. Final pro sono.",
+    "palavras": 2656,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap17",
+    "numero": 17,
+    "titulo": "As Letras que Viajaram",
+    "rubrica": "Começa devagar, com o tempo passando. Curiosidade no meio. A entrega no clímax. Final pro sono.",
+    "palavras": 2348,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap18",
+    "numero": 18,
+    "titulo": "O Império que Comia Reinos",
+    "rubrica": "Começa com medo crescendo. A perda no meio. A subida pras montanhas. A cidade das histórias. Final pro sono.",
+    "palavras": 2536,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap19",
+    "numero": 19,
+    "titulo": "O Profeta que Ninguém Queria Ouvir",
+    "rubrica": "Começa com a história de Elias (contada como lenda). Jeremias ao vivo no meio. Queda no final. Fuga. Sono.",
+    "palavras": 3006,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap20",
+    "numero": 20,
+    "titulo": "O Povo que Perguntava",
+    "rubrica": "Começa com viagem e descoberta. Os pré-socráticos no meio. Democracia e Esparta como contraste. Final reflexivo.",
+    "palavras": 2568,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap21",
+    "numero": 21,
+    "titulo": "O Homem que Só Fazia Perguntas",
+    "rubrica": "Começa com a chegada de Theron em Atenas. Sócrates no meio — diálogos ao vivo. O prenúncio no final. Sono.",
+    "palavras": 2224,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap22",
+    "numero": 22,
+    "titulo": "O Julgamento de Sócrates",
+    "rubrica": "Recap curto. O julgamento no meio. A morte calma. O que Theron entendeu. Academia no final. Sono.",
+    "palavras": 1646,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap23",
+    "numero": 23,
+    "titulo": "A Caverna",
+    "rubrica": "Começa com Platão e a Caverna. Aristóteles no meio — a ética, a virtude, a lei natural. O grand finale filosófico. Final pro sono.",
+    "palavras": 1445,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap24",
+    "numero": 24,
+    "titulo": "A Lei que Ninguém Escreveu",
+    "rubrica": "Aristóteles na Academia. A ética, a virtude como meio-termo, a lei natural. O grande finale filosófico. Sono.",
+    "palavras": 2763,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap25",
+    "numero": 25,
+    "titulo": "O Jardim de Mieza",
+    "rubrica": "Começa com a chegada na Macedônia. Alexandre e os heróis. A menina atrás da coluna. Aristóteles e a propriedade. O casamento. A marcha.",
+    "palavras": 2245,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap26",
+    "numero": 26,
+    "titulo": "A Espada e o Nó",
+    "rubrica": "Começa com a despedida. Troia, Isso, o nó górdio. Tiro destruída — o luto da família. Egito. Final pro sono.",
+    "palavras": 1394,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap27",
+    "numero": 27,
+    "titulo": "A Cidade que Não Caiu",
+    "rubrica": "Começa com a marcha pra Jerusalém. O encontro com o Templo. Reencontro das linhagens. Tensão grego-judaica. Profecias. Final pro sono.",
+    "palavras": 3550,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap28",
+    "numero": 28,
+    "titulo": "O Fogo que Nunca Apagava",
+    "rubrica": "Começa com Babilônia e os Jardins. Zoroastrismo no meio. A mudança de Alexandre. Índia. A recusa. Final pro sono.",
+    "palavras": 4187,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap29",
+    "numero": 29,
+    "titulo": "A Estrela que Caiu Rápido",
+    "rubrica": "Começa com a morte de Alexandre. Despedaçamento no meio. Reencontro com Melena. Alexandria. Final pro sono.",
+    "palavras": 4085,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap30",
+    "numero": 30,
+    "titulo": "Os Anjos que Caíram",
+    "rubrica": "Começa com textos estranhos chegando na Biblioteca. Apocalipsismo no meio. Macabeus. Expectativa messiânica. Final pro sono.",
+    "palavras": 3250,
+    "status": "1streview"
   }
 ]

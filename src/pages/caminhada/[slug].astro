@@ -73,6 +73,14 @@ const pageTitle = /grande caminhada/i.test(chapter.titulo)
 
         <p class="mt-6 font-mono text-xs text-fg-muted">
           {chapter.palavras.toLocaleString('pt-BR')} palavras · ~{minutes} min em voz alta
+          {chapter.status !== 'canon' && (
+            <>
+              {' · '}
+              <span class="text-gold-dim" title="Texto em primeira revisão — ainda pode mudar.">
+                primeira revisão
+              </span>
+            </>
+          )}
         </p>
       </header>
 
