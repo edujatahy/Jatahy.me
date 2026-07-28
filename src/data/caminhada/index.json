@@ -117,7 +117,7 @@
     "titulo": "O Fim do Mundo",
     "rubrica": "Começa com partida. Aventura crescente no meio. Atravessar o limite. Descoberta. Final pro sono.",
     "palavras": 2255,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap16",
@@ -125,7 +125,7 @@
     "titulo": "A Cidade no Monte",
     "rubrica": "Começa com viagem e chegada. Histórias dos Juízes no meio. A lenda de Salomão. A balança entre Yahweh e Baal. Final pro sono.",
     "palavras": 2656,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap17",
@@ -133,7 +133,7 @@
     "titulo": "As Letras que Viajaram",
     "rubrica": "Começa devagar, com o tempo passando. Curiosidade no meio. A entrega no clímax. Final pro sono.",
     "palavras": 2348,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap18",
@@ -141,7 +141,7 @@
     "titulo": "O Império que Comia Reinos",
     "rubrica": "Começa com medo crescendo. A perda no meio. A subida pras montanhas. A cidade das histórias. Final pro sono.",
     "palavras": 2536,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap19",
@@ -149,7 +149,7 @@
     "titulo": "O Profeta que Ninguém Queria Ouvir",
     "rubrica": "Começa com a história de Elias (contada como lenda). Jeremias ao vivo no meio. Queda no final. Fuga. Sono.",
     "palavras": 3006,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap20",
@@ -157,7 +157,7 @@
     "titulo": "O Povo que Perguntava",
     "rubrica": "Começa com viagem e descoberta. Os pré-socráticos no meio. Democracia e Esparta como contraste. Final reflexivo.",
     "palavras": 2568,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap21",
@@ -165,7 +165,7 @@
     "titulo": "O Homem que Só Fazia Perguntas",
     "rubrica": "Começa com a chegada de Theron em Atenas. Sócrates no meio — diálogos ao vivo. O prenúncio no final. Sono.",
     "palavras": 2224,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap22",
@@ -173,7 +173,7 @@
     "titulo": "O Julgamento de Sócrates",
     "rubrica": "Recap curto. O julgamento no meio. A morte calma. O que Theron entendeu. Academia no final. Sono.",
     "palavras": 1646,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap23",
@@ -181,7 +181,7 @@
     "titulo": "A Caverna",
     "rubrica": "Começa com Platão e a Caverna. Aristóteles no meio — a ética, a virtude, a lei natural. O grand finale filosófico. Final pro sono.",
     "palavras": 1445,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap24",
@@ -189,7 +189,7 @@
     "titulo": "A Lei que Ninguém Escreveu",
     "rubrica": "Aristóteles na Academia. A ética, a virtude como meio-termo, a lei natural. O grande finale filosófico. Sono.",
     "palavras": 2763,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap25",
@@ -197,7 +197,7 @@
     "titulo": "O Jardim de Mieza",
     "rubrica": "Começa com a chegada na Macedônia. Alexandre e os heróis. A menina atrás da coluna. Aristóteles e a propriedade. O casamento. A marcha.",
     "palavras": 2245,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap26",
@@ -205,7 +205,7 @@
     "titulo": "A Espada e o Nó",
     "rubrica": "Começa com a despedida. Troia, Isso, o nó górdio. Tiro destruída — o luto da família. Egito. Final pro sono.",
     "palavras": 1394,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap27",
@@ -213,7 +213,7 @@
     "titulo": "A Cidade que Não Caiu",
     "rubrica": "Começa com a marcha pra Jerusalém. O encontro com o Templo. Reencontro das linhagens. Tensão grego-judaica. Profecias. Final pro sono.",
     "palavras": 3550,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap28",
@@ -237,6 +237,6 @@
     "titulo": "Os Anjos que Caíram",
     "rubrica": "Começa com textos estranhos chegando na Biblioteca. Apocalipsismo no meio. Macabeus. Expectativa messiânica. Final pro sono.",
     "palavras": 3250,
-    "status": "1streview"
+    "status": "canon"
   }
 ]
