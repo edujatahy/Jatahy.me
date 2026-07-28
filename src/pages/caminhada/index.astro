@@ -9,6 +9,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 // Read aloud, not read silently — roughly 130 words a minute.
 const minutes = (w: number) => Math.max(1, Math.round(w / 130));
 const totalWords = chapters.reduce((s, c) => s + c.palavras, 0);
+// Page counts come from the book repo, which renders every chapter to A4 with
+// WeasyPrint rather than estimating from word count — a dialogue-heavy chapter
+// eats more page than running narration, and an estimate would miss exactly
+// there. A4 because it is the paper people have at home; the book itself is
+// typeset A5.
+const totalPages = chapters.reduce((s, c) => s + (c.paginasA4 ?? 0), 0);
 ---
 
 <BaseLayout
@@ -64,6 +70,11 @@ const totalWords = chapters.reduce((s, c) => s + c.palavras, 0);
           <div>
             <dt class="text-fg-muted">Palavras</dt>
             <dd class="mt-1 font-mono text-lg text-gold">{totalWords.toLocaleString('pt-BR')}</dd>
+            {totalPages > 0 && (
+              <dd class="mt-0.5 font-mono text-xs text-fg-muted">
+                {totalPages.toLocaleString('pt-BR')} páginas A4
+              </dd>
+            )}
           </div>
           <div>
             <dt class="text-fg-muted">Leitura em voz alta</dt>
