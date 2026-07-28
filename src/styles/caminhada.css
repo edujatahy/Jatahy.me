@@ -5,13 +5,21 @@
    (scripts/build.py in the a-grande-caminhada repo), so they are shared with
    the PDF output and must not be renamed here unilaterally.
 
-     .narracao   spoken narration — the text read aloud
-     .fala       a character speaking (italic in the source)
-     .crianca    the child interrupting ("— Qual trabalho?")
-     .cue        breath cue (Inspira… / Expira… / Silêncio longo.)
-     .fecho      the closing "Boa noite, meninos…"
-     .emphasis   typographic peak
-     blockquote  stage direction for whoever is reading aloud
+     .narracao    spoken narration — the text read aloud
+     .fala        a character speaking (italic in the source)
+     .escrito     something a family member WROTE — a scroll, a letter, a
+                  journal entry. Its own register since 2026-07-28: the whole
+                  family are scribes, and rendering their writing identically
+                  to their speech erased the book's signature.
+     .pensamento  interior thought — nobody says it out loud
+     .aparte      the narrator stepping out of the scene to explain something
+                  to the children
+     .crianca     the child interrupting ("— Qual trabalho?")
+     .cue         breath cue (Inspira… / Expira… / Silêncio longo.)
+     .fecho       the closing "Boa noite, meninos…"
+     .emphasis    typographic peak
+     blockquote   stage direction — the ONLY thing on the page that is not
+                  read aloud, so it must not look like story text
 
    Dark ground is deliberate: this gets read in a bedroom with the lights off.
 --------------------------------------------------------------------------- */
@@ -61,6 +69,47 @@
   color: var(--color-fg);
 }
 
+/* something a family member wrote: a scroll pulled into the page.
+   On the cream PDF this is a warm paper wash; on this dark ground a wash would
+   turn to mud, so the weight comes from a thicker gold rule plus the faintest
+   gold veil — enough to read as a separate object, not enough to glare. */
+.leitura p.escrito {
+  text-indent: 0;
+  margin: 1.15em 0;
+  padding: 0.55em 1.1em 0.6em 1.15em;
+  border-left: 3px solid var(--color-gold-dim);
+  background: color-mix(in srgb, var(--color-gold) 7%, transparent);
+  border-radius: 0 2px 2px 0;
+  color: var(--color-fg);
+}
+/* consecutive scroll paragraphs read as one document, not three blocks */
+.leitura p.escrito + p.escrito {
+  margin-top: -1.05em;
+  padding-top: 0.15em;
+}
+.leitura p.escrito em { font-style: normal; }
+
+/* interior thought — no frame at all. Nobody speaks it, so it gets no
+   container; the slant alone carries the interiority. */
+.leitura p.pensamento {
+  text-indent: 1.2em;
+  font-style: italic;
+  color: color-mix(in srgb, var(--color-fg) 86%, transparent);
+}
+.leitura p.pensamento em { font-style: normal; }
+
+/* the narrator leaving the scene to explain something to the children.
+   Still read aloud, but in a different voice — so: no indent, slightly
+   smaller, dashed rule to mark the aside without walling it off. */
+.leitura p.aparte {
+  text-indent: 0;
+  margin: 1.15em 0;
+  padding-left: 1.1em;
+  border-left: 1px dashed var(--color-border);
+  font-size: 0.95em;
+  color: var(--color-fg-muted);
+}
+
 /* the child interrupting the story */
 .leitura p.crianca {
   text-indent: 0;
@@ -97,13 +146,23 @@
 }
 .leitura blockquote p {
   text-indent: 0;
-  text-align: center;
+  text-align: left;
+  padding-left: 1.3em;
+  position: relative;
   font-family: var(--font-sans);
   font-size: 0.78rem;
   font-style: normal;
   letter-spacing: 0.1em;
   text-transform: lowercase;
   color: color-mix(in srgb, var(--color-fg-muted) 78%, transparent);
+}
+/* a marker, so the eye skips it while reading aloud */
+.leitura blockquote p::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold-dim);
+  letter-spacing: 0;
 }
 
 /* scene change */
