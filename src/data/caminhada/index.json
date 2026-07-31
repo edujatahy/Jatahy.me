@@ -294,7 +294,7 @@
     "rubrica": "Começa com a notícia de Cartago chegando em Alexandria. Rômulo e Remo. República. Direito. O fragmento. Final pro sono.",
     "palavras": 3764,
     "paginasA4": 12,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap34",
@@ -303,7 +303,7 @@
     "rubrica": "Começa com a escola de gladiadores. A revolta no meio. As vitórias. A derrota. A Via Ápia. Final pro sono.",
     "palavras": 3361,
     "paginasA4": 11,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap35",
@@ -312,7 +312,7 @@
     "rubrica": "Começa com César cruzando o Rubicão. Alexandria e o incêndio no meio. Cleópatra. A perda das placas. O assassinato. A decisão de ir pra Roma. Final pro sono.",
     "palavras": 3519,
     "paginasA4": 11,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap36",
@@ -321,7 +321,7 @@
     "rubrica": "Começa com notícias chegando em Roma. Cleópatra e Marco Antônio. Ácio. A morte. O Egito morre. Final pro sono.",
     "palavras": 3455,
     "paginasA4": 11,
-    "status": "1streview"
+    "status": "canon"
   },
   {
     "slug": "cap37",
@@ -330,6 +330,6 @@
     "rubrica": "Começa com Augusto e a transformação de Roma. Engenharia no meio. Mitologia romana. Direito. Mare Nostrum. O preço da paz. Final pro sono.",
     "palavras": 3784,
     "paginasA4": 11,
-    "status": "1streview"
+    "status": "canon"
   }
 ]
