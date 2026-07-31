@@ -286,5 +286,50 @@
     "palavras": 3250,
     "paginasA4": 10,
     "status": "canon"
+  },
+  {
+    "slug": "cap33",
+    "numero": 33,
+    "titulo": "A Loba e os Gêmeos",
+    "rubrica": "Começa com a notícia de Cartago chegando em Alexandria. Rômulo e Remo. República. Direito. O fragmento. Final pro sono.",
+    "palavras": 3700,
+    "paginasA4": 12,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap34",
+    "numero": 34,
+    "titulo": "O Gladiador que Disse Não",
+    "rubrica": "Começa com a escola de gladiadores. A revolta no meio. As vitórias. A derrota. A Via Ápia. Final pro sono.",
+    "palavras": 3361,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap35",
+    "numero": 35,
+    "titulo": "O Fogo e a Lâmina",
+    "rubrica": "Começa com César cruzando o Rubicão. Alexandria e o incêndio no meio. Cleópatra. A perda das placas. O assassinato. A decisão de ir pra Roma. Final pro sono.",
+    "palavras": 3519,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap36",
+    "numero": 36,
+    "titulo": "A Última Faraó",
+    "rubrica": "Começa com notícias chegando em Roma. Cleópatra e Marco Antônio. Ácio. A morte. O Egito morre. Final pro sono.",
+    "palavras": 3455,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap37",
+    "numero": 37,
+    "titulo": "Mare Nostrum",
+    "rubrica": "Começa com Augusto e a transformação de Roma. Engenharia no meio. Mitologia romana. Direito. Mare Nostrum. O preço da paz. Final pro sono.",
+    "palavras": 3784,
+    "paginasA4": 11,
+    "status": "1streview"
   }
 ]
