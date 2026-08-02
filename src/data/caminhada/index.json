@@ -331,5 +331,59 @@
     "palavras": 3784,
     "paginasA4": 11,
     "status": "canon"
+  },
+  {
+    "slug": "cap38",
+    "numero": 38,
+    "titulo": "A Floresta que Engoliu as Legiões",
+    "rubrica": "Começa com a fronteira norte. Armínio no meio. A emboscada. A lição dos germânicos. Final pro sono.",
+    "palavras": 4434,
+    "paginasA4": 13,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap39",
+    "numero": 39,
+    "titulo": "O Carpinteiro e o Escriba",
+    "rubrica": "Começa com rumores vagos. Paulo chega em Roma. A mensagem. Nero. As tochas. Final pro sono.",
+    "palavras": 4675,
+    "paginasA4": 13,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap40",
+    "numero": 40,
+    "titulo": "O Templo Cai de Novo",
+    "rubrica": "Começa com a tensão na Judeia. A revolta. O cerco. A destruição. A diáspora. As palavras que sobrevivem. Final pro sono.",
+    "palavras": 3609,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap41",
+    "numero": 41,
+    "titulo": "O Imperador que Escrevia à Noite",
+    "rubrica": "Começa com Marco Aurélio. O cristianismo crescendo por baixo. Márcia e Paulino. Os textos circulando. Final pro sono.",
+    "palavras": 2599,
+    "paginasA4": 8,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap42",
+    "numero": 42,
+    "titulo": "A Prateleira Onde Cabia Tudo",
+    "rubrica": "Começa com o batismo dos filhos. Os mestres de Alexandria. Os evangelhos que ficaram de fora. A morte do Aulo e a promessa. Márcia vira guardiã. Final pro sono.",
+    "palavras": 2518,
+    "paginasA4": 8,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap43",
+    "numero": 43,
+    "titulo": "A Moeda, o Pão e as Catacumbas",
+    "rubrica": "Começa com a economia desmoronando. Inflação explicada pra crianças. Diocleciano no meio. Perseguição e catacumbas. Constantino no final. Sono.",
+    "palavras": 4616,
+    "paginasA4": 14,
+    "status": "1streview"
   }
 ]
