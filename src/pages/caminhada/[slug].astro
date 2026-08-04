@@ -32,6 +32,20 @@ const key = Object.keys(bodies).find((k) => k.endsWith(`/${chapter.slug}.html`))
 const body = key ? bodies[key] : '';
 const minutes = Math.max(1, Math.round(chapter.palavras / 130));
 
+// The book is a draft until it is finished — nothing here is final, so every
+// chapter carries the stage it has reached rather than only the unfinished ones.
+const REVIEW_STAGES: Record<string, { label: string; hint: string }> = {
+  '2ndreview': {
+    label: 'segunda revisão',
+    hint: 'Texto em segunda revisão — o livro ainda é um rascunho e tudo pode mudar.',
+  },
+  '1streview': {
+    label: 'primeira revisão',
+    hint: 'Texto em primeira revisão — ainda tem erros de continuidade conhecidos.',
+  },
+};
+const reviewStage = REVIEW_STAGES[chapter.status] ?? REVIEW_STAGES['1streview'];
+
 // Chapters 1-2 are themselves titled "A Grande Caminhada (Parte N)", so the
 // usual "<title> — A Grande Caminhada" suffix would stutter.
 const pageTitle = /grande caminhada/i.test(chapter.titulo)
@@ -73,14 +87,10 @@ const pageTitle = /grande caminhada/i.test(chapter.titulo)
 
         <p class="mt-6 font-mono text-xs text-fg-muted">
           {chapter.palavras.toLocaleString('pt-BR')} palavras · ~{minutes} min em voz alta
-          {chapter.status !== 'canon' && (
-            <>
-              {' · '}
-              <span class="text-gold-dim" title="Texto em primeira revisão — ainda pode mudar.">
-                primeira revisão
-              </span>
-            </>
-          )}
+          {' · '}
+          <span class="text-gold-dim" title={reviewStage.hint}>
+            {reviewStage.label}
+          </span>
         </p>
       </header>
 
