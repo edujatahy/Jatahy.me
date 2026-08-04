@@ -385,5 +385,50 @@
     "palavras": 4616,
     "paginasA4": 14,
     "status": "canon"
+  },
+  {
+    "slug": "cap44",
+    "numero": 44,
+    "titulo": "A Cruz e o Trono",
+    "rubrica": "Começa com Constantino e o poder abraçando a fé. Niceia no meio. O cânon bíblico. Teodósio. Serapeum. Perseguidos viram perseguidores. Final pro sono.",
+    "palavras": 3735,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap45",
+    "numero": 45,
+    "titulo": "A Nova Roma",
+    "rubrica": "Começa com Constantinopla. A divisão no meio. O primo que vai pro oriente. A cisão começando. Final pro sono.",
+    "palavras": 2963,
+    "paginasA4": 10,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap46",
+    "numero": 46,
+    "titulo": "Os Hóspedes que Ficaram",
+    "rubrica": "Começa com os visigodos no Danúbio. Adrianópolis no meio. Alarico em Roma. O saque. A perda de pergaminhos. O bandido estacionário. Final pro sono.",
+    "palavras": 4509,
+    "paginasA4": 13,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap47",
+    "numero": 47,
+    "titulo": "O Último Dia de Roma",
+    "rubrica": "Começa com os últimos anos do Império. Odoacro no meio. Teodorico. A transição de escravo a servo. O nascimento do feudalismo. Final pro sono.",
+    "palavras": 3657,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap48",
+    "numero": 48,
+    "titulo": "Os Monges que Salvaram as Palavras",
+    "rubrica": "Começa com Toledo visigoda. Os mosteiros no meio. A honra germânica. A palavra como lei. Cartas de Constantinopla. Final pro sono.",
+    "palavras": 3640,
+    "paginasA4": 11,
+    "status": "1streview"
   }
 ]
