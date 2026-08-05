@@ -520,5 +520,50 @@
     "palavras": 2659,
     "paginasA4": 9,
     "status": "1streview"
+  },
+  {
+    "slug": "cap59",
+    "numero": 59,
+    "titulo": "O Primeiro Reino",
+    "rubrica": "Começa com Portugal nascendo. A Reconquista portuguesa. A aliança com a Inglaterra. A família migra. Final pro sono.",
+    "palavras": 3507,
+    "paginasA4": 10,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap60",
+    "numero": 60,
+    "titulo": "As Letras que Voaram",
+    "rubrica": "Começa com a Peste Negra. Constantinopla cai no meio. Gutenberg. A morte e o renascimento da profissão. Final pro sono.",
+    "palavras": 4048,
+    "paginasA4": 12,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap61",
+    "numero": 61,
+    "titulo": "O Mar sem Fim",
+    "rubrica": "Começa com Diogo nos navios. Bartolomeu Dias no meio. Vasco da Gama. Colombo. O mundo se abre. Final pro sono.",
+    "palavras": 3607,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap62",
+    "numero": 62,
+    "titulo": "O Homem no Centro",
+    "rubrica": "Começa com Florença e o Renascimento. Lutero no meio. A Bíblia pro povo. A democratização da palavra. Final pro sono.",
+    "palavras": 3819,
+    "paginasA4": 11,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap63",
+    "numero": 63,
+    "titulo": "Os Padres que Entenderam o Preço",
+    "rubrica": "Começa com Francisco em Salamanca. Os escolásticos no meio. Valor subjetivo. Inflação como roubo. O ouro da América. Final pro sono.",
+    "palavras": 4566,
+    "paginasA4": 13,
+    "status": "1streview"
   }
 ]
