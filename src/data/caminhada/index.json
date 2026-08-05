@@ -499,7 +499,7 @@
     "numero": 56,
     "titulo": "A Terra das Três Fés",
     "rubrica": "Começa com Averróis. Maimônides no meio. Os três na mesma mesa. Tomás de Aquino. O que Toledo significa. Final pro sono.",
-    "palavras": 3041,
+    "palavras": 3111,
     "paginasA4": 9,
     "status": "1streview"
   },
@@ -507,14 +507,23 @@
     "slug": "cap57",
     "numero": 57,
     "titulo": "A Cruz no Deserto",
-    "rubrica": "Começa com o chamado do Papa. Jerusalém no meio. Balduíno e Saladino. Ricardo. Constantinopla. Final pro sono.",
-    "palavras": 4383,
-    "paginasA4": 13,
+    "rubrica": "Começa com o chamado do Papa. Jerusalém 1099 e o massacre no meio. O Reino de Jerusalém. Arnaut. O rei leproso. Final pro sono.",
+    "palavras": 2484,
+    "paginasA4": 8,
     "status": "1streview"
   },
   {
     "slug": "cap58",
     "numero": 58,
+    "titulo": "A Honra Não Tem Bandeira",
+    "rubrica": "Começa com Saladino retomando Jerusalém. Ricardo Coração de Leão no meio. A Quarta Cruzada e a vergonha. O balanço do Martín. Final pro sono.",
+    "palavras": 2160,
+    "paginasA4": 7,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap59",
+    "numero": 59,
     "titulo": "O Império Maior que o de Alexandre",
     "rubrica": "Começa com uma carta que demorou dois anos pra chegar. Gengis Khan no meio — o menino que dormia com os cavalos. Bagdá em 1258. O que a família quase perdeu sem saber que tinha. Final pro sono.",
     "palavras": 2659,
@@ -522,8 +531,8 @@
     "status": "1streview"
   },
   {
-    "slug": "cap59",
-    "numero": 59,
+    "slug": "cap60",
+    "numero": 60,
     "titulo": "O Primeiro Reino",
     "rubrica": "Começa com Portugal nascendo. A Reconquista portuguesa. A aliança com a Inglaterra. A família migra. Final pro sono.",
     "palavras": 3507,
@@ -531,8 +540,8 @@
     "status": "1streview"
   },
   {
-    "slug": "cap60",
-    "numero": 60,
+    "slug": "cap61",
+    "numero": 61,
     "titulo": "As Letras que Voaram",
     "rubrica": "Começa com a Peste Negra. Constantinopla cai no meio. Gutenberg. A morte e o renascimento da profissão. Final pro sono.",
     "palavras": 4048,
@@ -540,17 +549,17 @@
     "status": "1streview"
   },
   {
-    "slug": "cap61",
-    "numero": 61,
+    "slug": "cap62",
+    "numero": 62,
     "titulo": "O Mar sem Fim",
     "rubrica": "Começa com Diogo nos navios. Bartolomeu Dias no meio. Vasco da Gama. Colombo. O mundo se abre. Final pro sono.",
-    "palavras": 3607,
+    "palavras": 3600,
     "paginasA4": 11,
     "status": "1streview"
   },
   {
-    "slug": "cap62",
-    "numero": 62,
+    "slug": "cap63",
+    "numero": 63,
     "titulo": "O Homem no Centro",
     "rubrica": "Começa com Florença e o Renascimento. Lutero no meio. A Bíblia pro povo. A democratização da palavra. Final pro sono.",
     "palavras": 3819,
@@ -558,12 +567,21 @@
     "status": "1streview"
   },
   {
-    "slug": "cap63",
-    "numero": 63,
+    "slug": "cap64",
+    "numero": 64,
     "titulo": "Os Padres que Entenderam o Preço",
-    "rubrica": "Começa com Francisco em Salamanca. Os escolásticos no meio. Valor subjetivo. Inflação como roubo. O ouro da América. Final pro sono.",
-    "palavras": 4566,
-    "paginasA4": 13,
+    "rubrica": "Começa com Salamanca. Francisco de Vitoria no meio. O ouro da América. Azpilcueta e o valor subjetivo. Molina e o preço justo. Final pro sono.",
+    "palavras": 2340,
+    "paginasA4": 7,
+    "status": "1streview"
+  },
+  {
+    "slug": "cap65",
+    "numero": 65,
+    "titulo": "O Rei que Diluía a Moeda",
+    "rubrica": "Começa com Mariana. A moeda como propriedade no meio. A prisão. A conexão completa, de Aristóteles a Salamanca. Francisco e Duarte. Final pro sono.",
+    "palavras": 2457,
+    "paginasA4": 8,
     "status": "1streview"
   }
 ]
