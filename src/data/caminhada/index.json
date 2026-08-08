@@ -553,8 +553,8 @@
     "numero": 62,
     "titulo": "O Mar sem Fim",
     "rubrica": "Começa com Diogo nos navios. Bartolomeu Dias no meio. Vasco da Gama. Colombo. O mundo se abre. Final pro sono.",
-    "palavras": 3546,
-    "paginasA4": 11,
+    "palavras": 3523,
+    "paginasA4": 10,
     "status": "2ndreview"
   },
   {
@@ -583,5 +583,14 @@
     "palavras": 2429,
     "paginasA4": 8,
     "status": "2ndreview"
+  },
+  {
+    "slug": "cap66",
+    "numero": 66,
+    "titulo": "A Sombra que Voltou",
+    "rubrica": "Começa com o império que cabia num colar. Macau no meio. As cartas do rei do Congo. O livro de registro. O que era novo. Final pro sono.",
+    "palavras": 2663,
+    "paginasA4": 8,
+    "status": "1streview"
   }
 ]
