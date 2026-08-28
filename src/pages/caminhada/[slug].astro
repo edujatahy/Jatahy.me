@@ -94,6 +94,22 @@ const pageTitle = /grande caminhada/i.test(chapter.titulo)
         </p>
       </header>
 
+      <!-- Onde a família está: mapa gerado pelo repo do livro (scripts/mapa.py) -->
+      {chapter.mapa && (
+        <figure class="mt-10">
+          <img
+            src={`${base}/caminhada/mapa/${chapter.slug}.svg`}
+            alt={`Mapa da caminhada da família até o capítulo ${chapter.numero}`}
+            class="w-full rounded-lg border border-border"
+            loading="lazy"
+            decoding="async"
+          />
+          <figcaption class="mt-3 text-center font-mono text-xs text-fg-muted">
+            Onde a família está neste capítulo — e todo o caminho até aqui.
+          </figcaption>
+        </figure>
+      )}
+
       <!-- The chapter itself -->
       <div class="leitura mt-12" set:html={body} />
 

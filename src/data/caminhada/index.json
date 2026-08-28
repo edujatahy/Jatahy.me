@@ -6,7 +6,8 @@
     "rubrica": "Para contar em voz alta, antes de dormir.",
     "palavras": 404,
     "paginasA4": 3,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap02",
@@ -15,7 +16,8 @@
     "rubrica": "Voz baixa, ritmo lento. Vai diminuindo o tom conforme avança.",
     "palavras": 689,
     "paginasA4": 4,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap03",
@@ -24,7 +26,8 @@
     "rubrica": "Tom calmo, ritmo de estrada. Começa animado pra prender atenção, vai desacelerando aos poucos.",
     "palavras": 1111,
     "paginasA4": 5,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap04",
@@ -33,7 +36,8 @@
     "rubrica": "Tom de aventura no começo. Conflito no meio. Calma no final. Vai desacelerando devagar.",
     "palavras": 2246,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap05",
@@ -42,7 +46,8 @@
     "rubrica": "Começa com energia de aventura. Tensão no meio. Gilgamesh entra devagar como uma história de fogueira. Final lento.",
     "palavras": 3792,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap06",
@@ -51,7 +56,8 @@
     "rubrica": "Começa com alegria. Passa por perda. Termina com esperança. Ritmo vai desacelerando como sempre.",
     "palavras": 3021,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap07",
@@ -60,7 +66,8 @@
     "rubrica": "Começa com o crescimento de Enshi e os usos práticos da escrita. Conflito no meio. Hamurabi no final. Ritmo desacelera como sempre.",
     "palavras": 3342,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap08",
@@ -69,7 +76,8 @@
     "rubrica": "Começa com presságios. Tensão cresce devagar. Destruição no meio. Fuga. Despedida de Enshi. Estrada nova. Final pro sono.",
     "palavras": 2673,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap09",
@@ -78,7 +86,8 @@
     "rubrica": "Começa com a travessia. Medo no meio. Descoberta e maravilhamento. Final pro sono.",
     "palavras": 3561,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap10",
@@ -87,7 +96,8 @@
     "rubrica": "Começa com maravilhamento. Engenharia no meio. Escravidão aparece devagar. Final reflexivo.",
     "palavras": 2071,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap11",
@@ -96,7 +106,8 @@
     "rubrica": "Começa com descoberta e maravilhamento. Mito no meio. Perda e ritual. Final pro sono.",
     "palavras": 3701,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap12",
@@ -105,7 +116,8 @@
     "rubrica": "Começa com normalidade quebrando. Despedida no meio. Perda e fome. Esperança no final. O episódio mais pesado da série — voz firme, sem dramatizar demais. A dor fala por si.",
     "palavras": 4644,
     "paginasA4": 15,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap13",
@@ -114,7 +126,8 @@
     "rubrica": "Começa com chegada e recomeço. Descobertas no meio. Morte de Naram. Final pro sono.",
     "palavras": 3642,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap14",
@@ -123,7 +136,8 @@
     "rubrica": "Começa com aventura. Romance no meio. Lado sombrio. Nascimento. Final pro sono.",
     "palavras": 3041,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap15",
@@ -132,7 +146,8 @@
     "rubrica": "Começa com partida. Aventura crescente no meio. Atravessar o limite. Descoberta. Final pro sono.",
     "palavras": 2255,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap16",
@@ -141,7 +156,8 @@
     "rubrica": "Começa com viagem e chegada. Histórias dos Juízes no meio. A lenda de Salomão. A balança entre Yahweh e Baal. Final pro sono.",
     "palavras": 2656,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap17",
@@ -150,7 +166,8 @@
     "rubrica": "Começa devagar, com o tempo passando. Curiosidade no meio. A entrega no clímax. Final pro sono.",
     "palavras": 2348,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap18",
@@ -159,7 +176,8 @@
     "rubrica": "Começa com medo crescendo. A perda no meio. A subida pras montanhas. A cidade das histórias. Final pro sono.",
     "palavras": 2536,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap19",
@@ -168,7 +186,8 @@
     "rubrica": "Começa com a história de Elias (contada como lenda). Jeremias ao vivo no meio. Queda no final. Fuga. Sono.",
     "palavras": 3006,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap20",
@@ -177,7 +196,8 @@
     "rubrica": "Começa com viagem e descoberta. Os pré-socráticos no meio. Democracia e Esparta como contraste. Final reflexivo.",
     "palavras": 2568,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap21",
@@ -186,7 +206,8 @@
     "rubrica": "Começa com a chegada de Theron em Atenas. Sócrates no meio — diálogos ao vivo. O prenúncio no final. Sono.",
     "palavras": 2224,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap22",
@@ -195,7 +216,8 @@
     "rubrica": "Recap curto. O julgamento no meio. A morte calma. O que Theron entendeu. Academia no final. Sono.",
     "palavras": 1646,
     "paginasA4": 6,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap23",
@@ -204,7 +226,8 @@
     "rubrica": "Começa com Platão e a Caverna. Aristóteles no meio — a ética, a virtude, a lei natural. O grand finale filosófico. Final pro sono.",
     "palavras": 1445,
     "paginasA4": 5,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap24",
@@ -213,7 +236,8 @@
     "rubrica": "Aristóteles na Academia. A ética, a virtude como meio-termo, a lei natural. O grande finale filosófico. Sono.",
     "palavras": 2763,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap25",
@@ -222,7 +246,8 @@
     "rubrica": "Começa com a chegada na Macedônia. Alexandre e os heróis. A menina atrás da coluna. Aristóteles e a propriedade. O casamento. A marcha.",
     "palavras": 2245,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap26",
@@ -231,7 +256,8 @@
     "rubrica": "Começa com a despedida. Troia, Isso, o nó górdio. Tiro destruída — o luto da família. Egito. Final pro sono.",
     "palavras": 1394,
     "paginasA4": 5,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap27",
@@ -240,7 +266,8 @@
     "rubrica": "Começa com a marcha pra Jerusalém. O encontro com o Templo. Reencontro das linhagens. Tensão grego-judaica. Profecias. Final pro sono.",
     "palavras": 3554,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap28",
@@ -249,7 +276,8 @@
     "rubrica": "Começa com a entrada em Babilônia. A pedra de Hamurabi e os Jardins no meio. Persépolis e o fogo que nunca apagava. Zoroastro. Final pro sono.",
     "palavras": 2446,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap29",
@@ -258,7 +286,8 @@
     "rubrica": "Começa com Persépolis em chamas. A mudança de Alexandre no meio. Clito. A Índia. A recusa do exército. O deserto. Final pro sono.",
     "palavras": 2065,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap30",
@@ -267,7 +296,8 @@
     "rubrica": "Começa com a morte de Alexandre. O despedaçamento no meio. O reencontro com Melena. A chegada em Alexandria. Final pro sono.",
     "palavras": 2200,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap31",
@@ -276,7 +306,8 @@
     "rubrica": "Começa com Ptolomeu e a promessa. As placas tomadas no meio. As cópias de Melena. A velhice em Alexandria. Final pro sono.",
     "palavras": 2201,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap32",
@@ -285,7 +316,8 @@
     "rubrica": "Começa com textos estranhos chegando na Biblioteca. Apocalipsismo no meio. Macabeus. Expectativa messiânica. Final pro sono.",
     "palavras": 3250,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap33",
@@ -294,7 +326,8 @@
     "rubrica": "Começa com a notícia de Cartago chegando em Alexandria. Rômulo e Remo. República. Direito. O fragmento. Final pro sono.",
     "palavras": 3764,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap34",
@@ -303,7 +336,8 @@
     "rubrica": "Começa com a escola de gladiadores. A revolta no meio. As vitórias. A derrota. A Via Ápia. Final pro sono.",
     "palavras": 3361,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap35",
@@ -312,7 +346,8 @@
     "rubrica": "Começa com César cruzando o Rubicão. Alexandria e o incêndio no meio. Cleópatra. A perda das placas. O assassinato. A decisão de ir pra Roma. Final pro sono.",
     "palavras": 3519,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap36",
@@ -321,7 +356,8 @@
     "rubrica": "Começa com notícias chegando em Roma. Cleópatra e Marco Antônio. Ácio. A morte. O Egito morre. Final pro sono.",
     "palavras": 3455,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap37",
@@ -330,7 +366,8 @@
     "rubrica": "Começa com Augusto e a transformação de Roma. Engenharia no meio. Mitologia romana. Direito. Mare Nostrum. O preço da paz. Final pro sono.",
     "palavras": 3850,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap38",
@@ -339,7 +376,8 @@
     "rubrica": "Começa com a fronteira norte. Armínio no meio. A emboscada. A lição dos germânicos. Final pro sono.",
     "palavras": 4434,
     "paginasA4": 13,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap39",
@@ -348,7 +386,8 @@
     "rubrica": "Começa com rumores vagos. Paulo chega em Roma. A mensagem. Nero. As tochas. Final pro sono.",
     "palavras": 4675,
     "paginasA4": 13,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap40",
@@ -357,7 +396,8 @@
     "rubrica": "Começa com a tensão na Judeia. A revolta. O cerco. A destruição. A diáspora. As palavras que sobrevivem. Final pro sono.",
     "palavras": 3609,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap41",
@@ -366,7 +406,8 @@
     "rubrica": "Começa com Marco Aurélio. O cristianismo crescendo por baixo. Márcia e Paulino. Os textos circulando. Final pro sono.",
     "palavras": 2599,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap42",
@@ -375,7 +416,8 @@
     "rubrica": "Começa com o batismo dos filhos. Os mestres de Alexandria. Os evangelhos que ficaram de fora. A morte do Aulo e a promessa. Márcia vira guardiã. Final pro sono.",
     "palavras": 2571,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap43",
@@ -384,7 +426,8 @@
     "rubrica": "Começa com a economia desmoronando. Inflação explicada pra crianças. Diocleciano no meio. Perseguição e catacumbas. Constantino no final. Sono.",
     "palavras": 4616,
     "paginasA4": 14,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap44",
@@ -393,7 +436,8 @@
     "rubrica": "Começa com Constantino e o poder abraçando a fé. Niceia no meio. O cânon bíblico. Teodósio. Serapeum. Perseguidos viram perseguidores. Final pro sono.",
     "palavras": 3735,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap45",
@@ -402,7 +446,8 @@
     "rubrica": "Começa com Constantinopla. A divisão no meio. O primo que vai pro oriente. A cisão começando. Final pro sono.",
     "palavras": 2963,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap46",
@@ -411,7 +456,8 @@
     "rubrica": "Começa com os visigodos no Danúbio. Adrianópolis no meio. Alarico em Roma. O saque. A perda de pergaminhos. Final pro sono.",
     "palavras": 2637,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap47",
@@ -420,7 +466,8 @@
     "rubrica": "Começa com Agostinho e as duas cidades. O bandido estacionário no meio. Lucius e Gisela na Hispânia. O primeiro nome germânico da família. Final pro sono.",
     "palavras": 2159,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap48",
@@ -429,7 +476,8 @@
     "rubrica": "Começa com os últimos anos do Império. Odoacro no meio. Teodorico. A transição de escravo a servo. O nascimento do feudalismo. Final pro sono.",
     "palavras": 3716,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap49",
@@ -438,7 +486,8 @@
     "rubrica": "Começa com Toledo visigoda. Os mosteiros no meio. A honra germânica. A palavra como lei. Cartas de Constantinopla. Final pro sono.",
     "palavras": 3487,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap50",
@@ -447,7 +496,8 @@
     "rubrica": "Começa com a carta de Constantinopla. Maomé no meio. As conquistas. Guadalete. A família vira dhimmi. Final pro sono.",
     "palavras": 2630,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap51",
@@ -456,7 +506,8 @@
     "rubrica": "Começa com o que mudou e o que não mudou. A reconexão com Aristóteles no meio. Os vizinhos convertem. A jizya que sobe. A saída de Toledo. Os Pireneus. Final pro sono.",
     "palavras": 2487,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap52",
@@ -465,7 +516,8 @@
     "rubrica": "Começa com a chegada ao reino dos francos. O conde Arnulf no meio. A cadeia de juramentos. A cerimônia. Rodrigo é armado cavaleiro. Final pro sono.",
     "palavras": 2279,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap53",
@@ -474,7 +526,8 @@
     "rubrica": "Começa com Carlos Martel. Carlos Magno no meio. O Renascimento Carolíngio. A honra como lei. Os vikings. A morte de Alaric. Final pro sono.",
     "palavras": 3080,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap54",
@@ -483,7 +536,8 @@
     "rubrica": "Começa com o mundo mudando na França. As tribos virando povos. A Reconquista. Toledo de volta. A caixa de chumbo. Final pro sono.",
     "palavras": 3272,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap55",
@@ -492,7 +546,8 @@
     "rubrica": "Começa com a Escola de Tradutores. Aristóteles voltando no meio. O mercado ao lado. Miroslav. As três mãos. A palavra que virou coisa. Final pro sono.",
     "palavras": 3444,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap56",
@@ -501,7 +556,8 @@
     "rubrica": "Começa com Averróis. Maimônides no meio. Os três na mesma mesa. Tomás de Aquino. O que Toledo significa. Final pro sono.",
     "palavras": 3081,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap57",
@@ -510,7 +566,8 @@
     "rubrica": "Começa com o chamado do Papa. Jerusalém 1099 e o massacre no meio. O Reino de Jerusalém. Arnaut. O rei leproso. Final pro sono.",
     "palavras": 2470,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap58",
@@ -519,7 +576,8 @@
     "rubrica": "Começa com Saladino retomando Jerusalém. Ricardo Coração de Leão no meio. A Quarta Cruzada e a vergonha. O balanço do Martín. Final pro sono.",
     "palavras": 2145,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap59",
@@ -528,7 +586,8 @@
     "rubrica": "Começa com uma carta que demorou dois anos pra chegar. Gengis Khan no meio — o menino que dormia com os cavalos. Bagdá em 1258. O que a família quase perdeu sem saber que tinha. Final pro sono.",
     "palavras": 2658,
     "paginasA4": 9,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap60",
@@ -537,7 +596,8 @@
     "rubrica": "Começa com Portugal nascendo. A Reconquista portuguesa. A aliança com a Inglaterra. A família migra. Final pro sono.",
     "palavras": 3326,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap61",
@@ -546,7 +606,8 @@
     "rubrica": "Começa com a Peste Negra. Constantinopla cai no meio. Gutenberg. A morte e o renascimento da profissão. Final pro sono.",
     "palavras": 4071,
     "paginasA4": 12,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap62",
@@ -555,7 +616,8 @@
     "rubrica": "Começa com Diogo nos navios. Bartolomeu Dias no meio. Vasco da Gama. Colombo. O mundo se abre. Final pro sono.",
     "palavras": 3523,
     "paginasA4": 10,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap63",
@@ -564,7 +626,8 @@
     "rubrica": "Começa com Florença e o Renascimento. Lutero no meio. A Bíblia pro povo. A democratização da palavra. Final pro sono.",
     "palavras": 3829,
     "paginasA4": 11,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap64",
@@ -573,7 +636,8 @@
     "rubrica": "Começa com Salamanca. Francisco de Vitoria no meio. O ouro da América e Azpilcueta. Covarrubias e o valor subjetivo. Molina e o preço justo. Final pro sono.",
     "palavras": 2277,
     "paginasA4": 7,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap65",
@@ -582,7 +646,8 @@
     "rubrica": "Começa com Mariana. A moeda como propriedade no meio. A prisão. A conexão completa, de Aristóteles a Salamanca. Francisco e Duarte. Final pro sono.",
     "palavras": 2429,
     "paginasA4": 8,
-    "status": "2ndreview"
+    "status": "2ndreview",
+    "mapa": true
   },
   {
     "slug": "cap66",
@@ -591,6 +656,7 @@
     "rubrica": "Começa com o império que cabia num colar. Macau no meio. As cartas do rei do Congo. O livro de registro. O que era novo. Final pro sono.",
     "palavras": 2663,
     "paginasA4": 8,
-    "status": "1streview"
+    "status": "1streview",
+    "mapa": true
   }
 ]
