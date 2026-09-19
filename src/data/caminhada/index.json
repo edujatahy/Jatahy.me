@@ -449,11 +449,11 @@
     "titulo": "A Floresta que Engoliu as Legiões",
     "rubrica": "Começa com a fronteira norte. Armínio no meio. A emboscada. A lição dos germânicos. Final pro sono.",
     "palavras": 4434,
-    "paginasA4": 13,
+    "paginasA4": 14,
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap39",
@@ -461,11 +461,11 @@
     "titulo": "O Carpinteiro e o Escriba",
     "rubrica": "Começa com rumores vagos. Paulo chega em Roma. A mensagem. Nero. As tochas. Final pro sono.",
     "palavras": 4675,
-    "paginasA4": 13,
+    "paginasA4": 14,
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap40",
@@ -477,7 +477,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap41",
