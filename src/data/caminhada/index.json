@@ -9,7 +9,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap02",
@@ -21,7 +21,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap03",
@@ -33,7 +33,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap04",
@@ -45,7 +45,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap05",
@@ -57,7 +57,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap06",
@@ -69,7 +69,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap07",
@@ -81,7 +81,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap08",
@@ -93,7 +93,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap09",
@@ -105,7 +105,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap10",
@@ -117,7 +117,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap11",
@@ -129,7 +129,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap12",
@@ -141,7 +141,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap13",
@@ -153,7 +153,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap14",
@@ -165,7 +165,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap15",
@@ -177,7 +177,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap16",
@@ -189,7 +189,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap17",
@@ -201,7 +201,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap18",
@@ -213,7 +213,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap19",
@@ -225,7 +225,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap20",
@@ -237,7 +237,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap21",
@@ -249,7 +249,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap22",
@@ -261,7 +261,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap23",
@@ -273,7 +273,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap24",
@@ -285,7 +285,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap25",
@@ -297,7 +297,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap26",
@@ -309,7 +309,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap27",
@@ -321,7 +321,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap28",
@@ -333,7 +333,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap29",
@@ -345,7 +345,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap30",
@@ -357,7 +357,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap31",
@@ -369,7 +369,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap32",
@@ -381,7 +381,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap33",
@@ -393,7 +393,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap34",
@@ -405,7 +405,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": true
+    "ilustracao": 2
   },
   {
     "slug": "cap35",
@@ -417,7 +417,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": true
+    "ilustracao": 1
   },
   {
     "slug": "cap36",
@@ -429,7 +429,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": true
+    "ilustracao": 1
   },
   {
     "slug": "cap37",
@@ -441,7 +441,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap38",
@@ -453,7 +453,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap39",
@@ -465,7 +465,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap40",
@@ -477,7 +477,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap41",
@@ -489,7 +489,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap42",
@@ -501,7 +501,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap43",
@@ -513,7 +513,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap44",
@@ -525,7 +525,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap45",
@@ -537,7 +537,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap46",
@@ -549,7 +549,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap47",
@@ -561,7 +561,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap48",
@@ -573,7 +573,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap49",
@@ -585,7 +585,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap50",
@@ -597,7 +597,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap51",
@@ -609,7 +609,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap52",
@@ -621,7 +621,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap53",
@@ -633,7 +633,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap54",
@@ -645,7 +645,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap55",
@@ -657,7 +657,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap56",
@@ -669,7 +669,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap57",
@@ -681,7 +681,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap58",
@@ -693,7 +693,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap59",
@@ -705,7 +705,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap60",
@@ -717,7 +717,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap61",
@@ -729,7 +729,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap62",
@@ -741,7 +741,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap63",
@@ -753,7 +753,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap64",
@@ -765,7 +765,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap65",
@@ -777,7 +777,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   },
   {
     "slug": "cap66",
@@ -789,6 +789,6 @@
     "status": "1streview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": false
+    "ilustracao": 0
   }
 ]
