@@ -8,7 +8,8 @@
     "paginasA4": 3,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap02",
@@ -19,7 +20,8 @@
     "paginasA4": 4,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap03",
@@ -30,7 +32,8 @@
     "paginasA4": 5,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap04",
@@ -41,7 +44,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap05",
@@ -52,7 +56,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap06",
@@ -63,7 +68,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap07",
@@ -74,7 +80,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap08",
@@ -85,7 +92,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap09",
@@ -96,7 +104,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap10",
@@ -107,7 +116,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap11",
@@ -118,7 +128,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap12",
@@ -129,7 +140,8 @@
     "paginasA4": 15,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap13",
@@ -140,7 +152,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap14",
@@ -151,7 +164,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap15",
@@ -162,7 +176,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap16",
@@ -173,7 +188,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap17",
@@ -184,7 +200,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap18",
@@ -195,7 +212,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap19",
@@ -206,7 +224,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap20",
@@ -217,7 +236,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap21",
@@ -228,7 +248,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap22",
@@ -239,7 +260,8 @@
     "paginasA4": 6,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap23",
@@ -250,7 +272,8 @@
     "paginasA4": 5,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap24",
@@ -261,7 +284,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap25",
@@ -272,7 +296,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap26",
@@ -283,7 +308,8 @@
     "paginasA4": 5,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap27",
@@ -294,7 +320,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap28",
@@ -305,7 +332,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap29",
@@ -316,7 +344,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap30",
@@ -327,7 +356,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap31",
@@ -338,7 +368,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap32",
@@ -349,7 +380,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap33",
@@ -360,7 +392,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap34",
@@ -371,7 +404,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": true
   },
   {
     "slug": "cap35",
@@ -382,7 +416,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": true
   },
   {
     "slug": "cap36",
@@ -393,7 +428,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": true
   },
   {
     "slug": "cap37",
@@ -404,7 +440,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap38",
@@ -415,7 +452,8 @@
     "paginasA4": 13,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap39",
@@ -426,7 +464,8 @@
     "paginasA4": 13,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap40",
@@ -437,7 +476,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap41",
@@ -448,7 +488,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap42",
@@ -459,7 +500,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap43",
@@ -470,7 +512,8 @@
     "paginasA4": 14,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap44",
@@ -481,7 +524,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap45",
@@ -492,7 +536,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap46",
@@ -503,7 +548,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap47",
@@ -514,7 +560,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap48",
@@ -525,7 +572,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap49",
@@ -536,7 +584,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap50",
@@ -547,7 +596,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap51",
@@ -558,7 +608,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap52",
@@ -569,7 +620,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap53",
@@ -580,7 +632,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap54",
@@ -591,7 +644,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap55",
@@ -602,7 +656,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap56",
@@ -613,7 +668,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap57",
@@ -624,7 +680,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap58",
@@ -635,7 +692,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap59",
@@ -646,7 +704,8 @@
     "paginasA4": 9,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap60",
@@ -657,7 +716,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap61",
@@ -668,7 +728,8 @@
     "paginasA4": 12,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap62",
@@ -679,7 +740,8 @@
     "paginasA4": 10,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap63",
@@ -690,7 +752,8 @@
     "paginasA4": 11,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap64",
@@ -701,7 +764,8 @@
     "paginasA4": 7,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap65",
@@ -712,7 +776,8 @@
     "paginasA4": 8,
     "status": "2ndreview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   },
   {
     "slug": "cap66",
@@ -723,6 +788,7 @@
     "paginasA4": 8,
     "status": "1streview",
     "mapa": true,
-    "ceu": true
+    "ceu": true,
+    "ilustracao": false
   }
 ]

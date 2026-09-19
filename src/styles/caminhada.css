@@ -202,3 +202,16 @@
 }
 .leitura li { margin: 0.45em 0; }
 .leitura li::marker { color: var(--color-gold-dim); }
+
+/* Chapter illustrations — placed by export_web.py under the heading of the
+   section where the scene happens, so the picture arrives with the story. */
+.leitura figure.ilustracao {
+  margin: 1.75rem 0 2.25rem;
+}
+.leitura figure.ilustracao img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-border);
+}
