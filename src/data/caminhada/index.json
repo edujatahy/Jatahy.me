@@ -9,7 +9,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 1
+    "ilustracao": 2
   },
   {
     "slug": "cap02",
@@ -21,7 +21,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap03",
@@ -33,7 +33,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap04",
@@ -45,7 +45,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap05",
