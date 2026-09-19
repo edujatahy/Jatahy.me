@@ -31,8 +31,8 @@
 <path d="M456.4 297.6L511.5 290.6" fill="none" stroke="#f5b301" stroke-width="6.0" stroke-linecap="round" opacity="0.95"/>
 <circle cx="511.5" cy="290.6" r="26" fill="#f5b301" opacity="0.22"/>
 <circle cx="511.5" cy="290.6" r="11" fill="#f5b301"/>
-<circle cx="392.1" cy="216.2" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="513.8" cy="289.6" r="5.5" fill="#a39b88" opacity="0.55"/>
+<circle cx="392.1" cy="216.2" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="456.4" cy="297.6" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="607.1" cy="281.5" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="511.2" cy="272.8" r="5.5" fill="#a39b88" opacity="0.55"/>
@@ -53,8 +53,8 @@
 <circle cx="498.8" cy="318.0" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="519.6" cy="708.0" r="5.5" fill="#a39b88" opacity="0.55"/>
 <text x="398.6" y="260.6" font-family="Georgia,serif" font-size="44" font-weight="bold" fill="#f5b301">Jerusalém</text>
-<text x="284.0" y="225.7" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Atenas</text>
 <text x="465.2" y="328.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Jericó</text>
+<text x="284.0" y="225.7" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Atenas</text>
 <text x="288.9" y="307.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Alexandria</text>
 <text x="682.4" y="291.4" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">O rio Hidaspes</text>
 <text x="616.9" y="351.3" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Persépolis</text>

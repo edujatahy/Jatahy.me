@@ -31,12 +31,8 @@
 <path d="M456.4 297.6L511.5 290.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
 <path d="M511.5 290.6L456.4 297.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
 <path d="M456.4 297.6L275.4 169.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M275.4 169.2L456.4 297.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M456.4 297.6L275.4 169.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M275.4 169.2L231.7 46.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M231.7 46.2L512.3 279.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M512.3 279.6L511.5 290.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
-<path d="M511.5 290.6L275.4 169.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
+<path d="M275.4 169.2L212.5 52.1" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
+<path d="M212.5 52.1L275.4 169.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
 <path d="M275.4 169.2L456.4 297.6" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
 <path d="M456.4 297.6L275.4 169.2" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
 <path d="M275.4 169.2L446.7 179.9" fill="none" stroke="#a39b88" stroke-width="2.2" stroke-linecap="round" opacity="0.14"/>
@@ -54,12 +50,12 @@
 <path d="M511.5 290.6L606.5 272.3" fill="none" stroke="#f5b301" stroke-width="6.0" stroke-linecap="round" opacity="0.95"/>
 <circle cx="606.5" cy="272.3" r="26" fill="#f5b301" opacity="0.22"/>
 <circle cx="606.5" cy="272.3" r="11" fill="#f5b301"/>
-<circle cx="511.5" cy="290.6" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="275.4" cy="169.2" r="5.5" fill="#a39b88" opacity="0.55"/>
+<circle cx="511.5" cy="290.6" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="103.7" cy="193.7" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="456.4" cy="297.6" r="5.5" fill="#a39b88" opacity="0.55"/>
-<circle cx="392.1" cy="216.2" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="513.8" cy="289.6" r="5.5" fill="#a39b88" opacity="0.55"/>
+<circle cx="392.1" cy="216.2" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="607.1" cy="281.5" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="511.2" cy="272.8" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="95.8" cy="217.3" r="5.5" fill="#a39b88" opacity="0.55"/>
@@ -67,8 +63,7 @@
 <circle cx="522.6" cy="269.9" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="107.0" cy="187.2" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="446.7" cy="179.9" r="5.5" fill="#a39b88" opacity="0.55"/>
-<circle cx="512.3" cy="279.6" r="5.5" fill="#a39b88" opacity="0.55"/>
-<circle cx="231.7" cy="46.2" r="5.5" fill="#a39b88" opacity="0.55"/>
+<circle cx="212.5" cy="52.1" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="909.3" cy="282.0" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="695.1" cy="312.7" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="418.2" cy="192.5" r="5.5" fill="#a39b88" opacity="0.55"/>
@@ -86,8 +81,8 @@
 <circle cx="498.8" cy="318.0" r="5.5" fill="#a39b88" opacity="0.55"/>
 <circle cx="519.6" cy="708.0" r="5.5" fill="#a39b88" opacity="0.55"/>
 <text x="542.0" y="242.3" font-family="Georgia,serif" font-size="44" font-weight="bold" fill="#f5b301">Bagdá</text>
-<text x="522.5" y="300.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Jerusalém</text>
 <text x="286.4" y="178.7" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Roma</text>
+<text x="522.5" y="300.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Jerusalém</text>
 <text x="114.7" y="203.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Toledo</text>
 <text x="288.9" y="307.1" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Alexandria</text>
 <text x="403.1" y="225.7" font-family="Georgia,serif" font-size="27" fill="#a39b88" opacity="0.8">Atenas</text>
