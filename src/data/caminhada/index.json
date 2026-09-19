@@ -417,7 +417,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 1
+    "ilustracao": 2
   },
   {
     "slug": "cap36",
@@ -429,7 +429,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 1
+    "ilustracao": 2
   },
   {
     "slug": "cap37",
@@ -441,7 +441,7 @@
     "status": "2ndreview",
     "mapa": true,
     "ceu": true,
-    "ilustracao": 0
+    "ilustracao": 2
   },
   {
     "slug": "cap38",
